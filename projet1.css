@@ -1,0 +1,89 @@
+.nav{ 
+    text-align:right;
+}
+.menu {
+    list-style: none;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 150px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content li {
+    display: block;
+    padding: 10px;
+  }
+  
+  .dropdown-content li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Style optionnel pour ajouter de l'espace autour du contenu */
+  .container {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+
+
+
+.container {
+    display: flex;
+    justify-content: left; /* Alignement horizontal au centre */
+    align-items:center;/* Alignement vertical au centre */
+    width: 100%;
+    height: 100%;
+    background-color: #fcfcfc;
+    border: 10px solid #888a919d;
+    margin: auto;
+  }
+  .box {
+    width: 30%;
+    height: 90%;
+    background-color: #fcfcfc;
+    border: 4px solid #ccc;
+    margin:0 auto;
+    padding:20px;
+    text-align:center;
+  }
+  .article {
+        background-color: #f5f5f5; /* Couleur grise de fond de l'article */
+        padding: 15px; /* Espacement interne du contenu de l'article */
+        border-radius: 5px; /* Coins arrondis pour l'article */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+        font-family: Arial, sans-serif; /* Police de caractères */
+        color: #333; /* Couleur du texte */
+        line-height: 1.6; /* Hauteur de ligne pour une meilleure lisibilité */
+      }
+
+    .img {
+            max-width: 100%; /* Pour que l'image ne dépasse pas la largeur du conteneur */
+            height: auto; /* Pour maintenir le ratio d'aspect de l'image */
+         }
+      
+  
+
+   
